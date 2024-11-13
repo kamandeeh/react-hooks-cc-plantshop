@@ -12,7 +12,7 @@ function NewPlantForm({ plantArr, setPlantArr }) {
   };
   let handleSubmit = (e) => {
     e.preventDefault();
-    fetch("http://localhost:6001/plants", {
+    fetch("https://react-hooks-cc-plantshop-9oc7.onrender.com/plants", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
